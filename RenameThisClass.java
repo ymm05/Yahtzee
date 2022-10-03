@@ -8,6 +8,16 @@
 public class RenameThisClass
 {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+        String [] strArray = {"Alpha", "Bravo", "Charlie", "Delta", "Echo"};
+        for (int a= 0; a < strArray.length; a++) {
+            System.out.println(strArray[a]);
+        }
+        for (int a= 0; a < strArray.length; a++) {
+            System.out.println(strArray[a]);
+        }
+        System.out.println();
+        for (int a= 0; a < strArray.length; a++) {
+            System.out.print("-" + strArray[a]);
+        }
+    }  
 }
