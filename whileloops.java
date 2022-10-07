@@ -13,12 +13,16 @@ public class whileloops
     int d = -8;
 
     public void run () {
-        for (int i = 0; i < 10; i = i+ 1) {
+        for (int i = 0; i < 15; i = i+ 1) {
             System.out.println("i is equal to "+i);
         }
         
-        for (int i = 0, j = 0; i < 10 && j < 5; i++, j=j+2) {
-           System.out.println("Compund for loop i="+i+" j="+j); 
+        for (int i = 0, j = 10; i < 10 && j < 0; j++, j=j+(-2)) {
+           System.out.println("Compund for loop j="+i+" j="+j); 
+        }
+        
+        for (int j = 0, k = 10; j < 10 && k < 0; k++, k=k+(-3)) {
+           System.out.println("Compund for loop k="+k+" j="+k); 
         }
     }
 
